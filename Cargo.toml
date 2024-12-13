@@ -1,0 +1,16 @@
+[package]
+name = "gstreamer-camera"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.94"
+gstreamer = "0.23.3"
+gstreamer-app = "0.23.3"
+gstreamer-video = "0.23.3"
+slint = "1.8.0"
+
+[build-dependencies]
+slint-build = "1.8.0"
